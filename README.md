@@ -34,6 +34,12 @@ Command to run sample code:
 	java -cp . edu.umbc.dbpedia.model.STS_Example
 	java -cp . edu.umbc.dbpedia.model.SimilarityModel
 
+If you get heap size exception then increase heap memory using -Xmx flag. Sample command with flag for heap memory is 
+
+	java -Xmx2g -cp . edu.umbc.dbpedia.model.STS_Example
+
+
+
 
 
 —- The End —- 
