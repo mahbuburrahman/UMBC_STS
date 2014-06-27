@@ -20,6 +20,7 @@ Step 2: Writing the config file. This file has two lines. Each of which are the 
 Step 3: Compiling the code with encoding
 
 Command to compile:
+
 	javac -O -encoding UTF8 -d .  *.java
 
 
@@ -27,6 +28,7 @@ Command to compile:
 Step 4: Running some sample code 
 
 Command to run sample code:
+
 	java -cp . edu.umbc.dbpedia.model.STS_Example
 
 If you get heap size exception then increase heap memory using -Xmx flag. Sample command with flag for heap memory is 
